@@ -24,7 +24,7 @@ jobs:
 #    - name: install vs code
 #      run: |
         # Install necessary components for building ASP.NET projects
-        choco install visualstudio2019-workload-netweb --version=16.11.31829.152
+#        choco install visualstudio2019-workload-netweb --version=16.11.31829.152
 
     - name: restore dependencies
       run: dotnet restore
