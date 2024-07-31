@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2022
 
     steps:
     - name: checkout repo
@@ -21,8 +21,8 @@ jobs:
       with:
         dotnet-version: '6.x'
 
-    - name: install vs code
-      run: |
+#    - name: install vs code
+#      run: |
         # Install necessary components for building ASP.NET projects
         choco install visualstudio2019-workload-netweb --version=16.11.31829.152
 
